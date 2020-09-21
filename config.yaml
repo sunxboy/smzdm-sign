@@ -8,7 +8,7 @@ emailFromPassword: "XXXXXXX"
 emailToSubject: "Smzdm_Auto_Sign_Report"
 # 收件服务器账号
 emailTo:
-  - "sunxboy@qq.com"
+  - "world@qq.com"
 
 # 用户账号, 支持多账号
 account:
