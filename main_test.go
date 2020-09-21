@@ -66,11 +66,11 @@ func Test_parseSigninResponseMethod(t *testing.T) {
 	// given
 	response := `jQuery1124000480060641146729_1600551081132({
     "qiyu_group_info": {
-        "groupid": "482066",
+        "groupid": "1121",
         "staffid": ""
     },
-    "qyuid": "9a0bad010dd62f97d156fd5ba9d99ccf",
-    "qytoken": "MTUvY24wa2tZZzF5ZGc9PV9fX3dVQU1lMWFxVURJK0JFazRadkUvUUE9PQ==",
+    "qyuid": "1212121",
+    "qytoken": "11212==",
     "smzdm_id": "1212121",
     "nickname": "sdsdds",
     "avatar": "\/\/avatarimg.smzdm.com\/default\/4740115153\/5b35bd2cedc84-small.jpg",
@@ -146,7 +146,7 @@ func Test_parseSigninResponseMethod(t *testing.T) {
             "latest_id": 0
         },
         "notice": {
-            "latest_id": "812129945"
+            "latest_id": "12121"
         },
         "ab_test": 0
     },
