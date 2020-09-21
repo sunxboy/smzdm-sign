@@ -1,0 +1,40 @@
+From: Smzdm-Auto-Sign<{{.Conf.EmailFrom}}>
+To: {{join .Conf.EmailTo ", "}}
+Subject: {{.Conf.EmailToSubject}}_{{dateTime "20060102"}}
+Content-Type: text/html; charset=utf-8
+
+<hr />
+{{if .SignResult}}
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+    <caption>签到数据</caption>
+    <tr>
+        <th align="left">编号</th>
+        <th align="left">昵称</th>
+        <th align="left">签到时间</th>
+        <th align="left">新增积分经验</th>
+        <th align="left">连续签到(day)</th>
+        <th align="left">总积分</th>
+        <th align="left">总经验</th>
+        <th align="left">总金币</th>
+        <th align="left">声望</th>
+        <th align="left">等级</th>
+    </tr>
+    <tr>
+        <td>{{.SignResult.Index}}</td>
+        <td>{{.SignResult.Account.Username}}</td>
+        <td>{{.SignResult.Time.Format "2006-01-02 15:04:05"}}</td>
+        <td>{{.SignResult.Data.AddPoint}}</td>
+        <td>{{.SignResult.Data.CheckinNum}}</td>
+        <td>{{.SignResult.Data.Point}}</td>
+        <td>{{.SignResult.Data.Exp}}</td>
+        <td>{{.SignResult.Data.Gold}}</td>
+        <td>{{.SignResult.Data.Prestige}}</td>
+        <td>{{.SignResult.Data.Rank}}</td>
+    </tr>
+</table>
+{{else}}
+<i>暂无[签到数据]报告</i><br />
+{{end}}
+<hr />
+<p align="right">START At: <b>{{.StartAt.Format "2006-01-02 15:04:05"}}</b></p>
+<p align="right">END At: <b>{{.EndAt.Format "2006-01-02 15:04:05"}}</b></p>
