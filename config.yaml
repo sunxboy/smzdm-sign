@@ -1,9 +1,9 @@
 # 发件服务器账号
-emailFrom: "sunxboy@foxmail.com"
+emailFrom: "hello@qq.com"
 # 发件服务器主机
 emailFromSMTP: "smtp.qq.com:25"
 # 发件服务器密码, QQ邮箱设置独立密码后，进入邮箱需要输入独立密码验证
-emailFromPassword: "auohlblyhaelcbcd"
+emailFromPassword: "XXXXXXX"
 # 邮件标题, 自动添加年月日
 emailToSubject: "Smzdm_Auto_Sign_Report"
 # 收件服务器账号
@@ -13,10 +13,10 @@ emailTo:
 # 用户账号, 支持多账号
 account:
   # 账号
-  "username": "sunxboy"
+  "username": "suxxxxxxx"
   # 手机号
-  "phone": "15669831872"
+  "phone": "1212121"
   # 个性化浏览器UA
   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15"
   # 浏览器请求头Cookie
-  "cookies": "__ckguid=C88OxlqTFeXaboiwk88v73; device_id=213070643316005511152691610bd45641bf3a92f95a926377a7a149ca; homepage_sug=g; r_sort_type=score; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22174a847ddd565d-032c16b43a6595-316b7004-2073600-174a847ddd6e01%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22%24device_id%22%3A%22174a847ddd565d-032c16b43a6595-316b7004-2073600-174a847ddd6e01%22%7D; __jsluid_s=78a800afc652be1bdfdf7d68ce806374; Hm_lvt_9b7ac3d38f30fe89ff0b8a0546904e58=1600551117; zdm_qd=%7B%7D; _ga=GA1.2.80725790.1600551116; _gid=GA1.2.816973104.1600551117; sess=NTNmNGZ8MTYwNDQzOTEzN3w0NzQwMTE1MTUzfDA5MmExMzJhYTI0NTk5ZjkzMzE0YjBmNzMzM2FiODBh; user=user%3A4740115153%7C4740115153; _zdmA.uid=ZDMA.AIH-Bwnb1.1600551142.2419200; Hm_lpvt_9b7ac3d38f30fe89ff0b8a0546904e58=1600551142; smzdm_id=4740115153; __gads=ID=2c3157e32c6ca689:T=1600551117:S=ALNI_MY7TzY6SoRt7tkB3lGlIY4tJlLqwg"
+  "cookies": "xxxx=xxxxx"
